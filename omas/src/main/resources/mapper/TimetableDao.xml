@@ -5,7 +5,7 @@
 <!--Mapper for Time Table-->
 <mapper namespace="com.omasystem.omas.Dao.TimetableDao">
 <!--Get All Reservations Per TimeSlot-->
-    <select id="getAllReservationPerTimeslot" parameterType="java.util.Map" resultType="com.omasystem.omas.Model.ReservationPerTimeslot">
+    <select id="getAllReservationPerTimeslot" parameterType="java.util.Map" resultType="com.omasystem.omas.Model">
     SELECT
         reservation.reservation_id AS reservation_id,
         reservation.seat_id AS seat_id,
